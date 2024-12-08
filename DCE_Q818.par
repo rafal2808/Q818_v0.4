@@ -1,0 +1,245 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+JA-KOMPUTER::  Sun Oct 06 14:06:39 2019
+
+par -w -intstyle ise -ol high -t 1 DCE_Q818_map.ncd DCE_Q818.ncd DCE_Q818.pcf 
+
+
+Constraints file: DCE_Q818.pcf.
+Loading device for application Rf_Device from file '3s50a.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "DCE_Q818" is an NCD, version 3.2, device xc3s50a, package tq144, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.42 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          12 out of 108    11%
+
+   Number of External Input IOBs                  3
+
+      Number of External Input IBUFs              3
+        Number of LOCed External Input IBUFs      3 out of 3     100%
+
+
+   Number of External Output IOBs                 9
+
+      Number of External Output IOBs              9
+        Number of LOCed External Output IOBs      9 out of 9     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of RAMB16BWEs                      3 out of 3     100%
+   Number of Slices                        289 out of 704    41%
+      Number of SLICEMs                      1 out of 352     1%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 2 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:161ce37d) REAL time: 4 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:161ce37d) REAL time: 4 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:161ce37d) REAL time: 4 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:18f1282e) REAL time: 5 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:18f1282e) REAL time: 5 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:18f1282e) REAL time: 5 secs 
+
+Phase 7.8  Global Placement
+.......
+..........................................
+........
+........
+Phase 7.8  Global Placement (Checksum:af3c35d4) REAL time: 5 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:af3c35d4) REAL time: 5 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:c79914ce) REAL time: 6 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:c79914ce) REAL time: 6 secs 
+
+Total REAL time to Placer completion: 6 secs 
+Total CPU  time to Placer completion: 3 secs 
+Writing design to file DCE_Q818.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 1874 unrouted;      REAL time: 7 secs 
+
+Phase  2  : 1749 unrouted;      REAL time: 7 secs 
+
+Phase  3  : 349 unrouted;      REAL time: 7 secs 
+
+Phase  4  : 349 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Updating file: DCE_Q818.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+WARNING:Route:455 - CLK Net:m_s<11> may have excessive skew because 
+      8 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:clock_o may have excessive skew because 
+      1 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:m_s<17> may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:U3/cou_dec_not0001 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:U3/cou_dec<1> may have excessive skew because 
+      1 CLK pins and 13 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:U3/cou_dec<0> may have excessive skew because 
+      5 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:U3/PCA_clk may have excessive skew because 
+      5 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:m_s<2> may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:m_s<13> may have excessive skew because 
+      4 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:m_s<18> may have excessive skew because 
+      4 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:m_s<12> may have excessive skew because 
+      3 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 7 secs 
+Total CPU time to Router completion: 4 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      CPU_clock_IBUF | BUFGMUX_X2Y10| No   |   51 |  0.128     |  0.585      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<11> |         Local|      |    8 |  0.288     |  1.316      |
++---------------------+--------------+------+------+------------+-------------+
+|             clock_o |         Local|      |    2 |  0.937     |  1.778      |
++---------------------+--------------+------+------+------------+-------------+
+|              m_s<3> |         Local|      |    9 |  0.172     |  1.397      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<17> |         Local|      |    5 |  0.948     |  1.307      |
++---------------------+--------------+------+------+------------+-------------+
+|          U3/PC_Hclk |         Local|      |    2 |  0.164     |  1.633      |
++---------------------+--------------+------+------+------------+-------------+
+|  U3/cou_dec_not0001 |         Local|      |    2 |  0.235     |  1.224      |
++---------------------+--------------+------+------+------------+-------------+
+|       U3/cou_dec<1> |         Local|      |   14 |  0.000     |  1.206      |
++---------------------+--------------+------+------+------------+-------------+
+|       U3/cou_dec<0> |         Local|      |    7 |  1.003     |  1.735      |
++---------------------+--------------+------+------+------------+-------------+
+|       U3/cou_dec<2> |         Local|      |   11 |  0.084     |  1.602      |
++---------------------+--------------+------+------+------------+-------------+
+|          U3/PCA_clk |         Local|      |    6 |  1.164     |  1.716      |
++---------------------+--------------+------+------+------------+-------------+
+|              m_s<2> |         Local|      |    4 |  0.372     |  1.400      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<13> |         Local|      |    4 |  0.235     |  0.730      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<18> |         Local|      |    4 |  0.499     |  1.267      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<20> |         Local|      |    1 |  0.000     |  0.322      |
++---------------------+--------------+------+------+------------+-------------+
+|          U3/PC_Lclk |         Local|      |    4 |  0.069     |  1.540      |
++---------------------+--------------+------+------+------------+-------------+
+|              m_s<1> |         Local|      |    3 |  0.257     |  1.322      |
++---------------------+--------------+------+------+------------+-------------+
+|             m_s<12> |         Local|      |    4 |  0.371     |  1.653      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  NET "CPU_clock_IBUF1" PERIOD = 83.3333333 | SETUP       |    76.719ns|     6.614ns|       0|           0
+   ns HIGH 50%                              | HOLD        |     1.085ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 8 secs 
+Total CPU time to PAR completion: 4 secs 
+
+Peak Memory Usage:  279 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 11
+Number of info messages: 0
+
+Writing design to file DCE_Q818.ncd
+
+
+
+PAR done!
